@@ -10,9 +10,4 @@ class Genre
     songs.collect {|song| song.artist}
   end
 
-  def add_song(song)
-    song.genre = self if song.genre != self
-  end
-
-
 end
