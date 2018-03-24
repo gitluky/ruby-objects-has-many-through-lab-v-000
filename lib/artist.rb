@@ -13,10 +13,6 @@ class Artist
     song.artist = self
   end
 
-  def songs
-    self.songs
-  end
-
   def genres
     self.songs.collect {|song| song.genre}
   end
