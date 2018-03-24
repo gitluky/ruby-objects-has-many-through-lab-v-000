@@ -7,6 +7,4 @@ class Appointment
     @doctor = doctor
   end
 
-
-
 end
