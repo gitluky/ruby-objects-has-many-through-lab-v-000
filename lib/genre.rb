@@ -11,7 +11,7 @@ class Genre
   end
 
   def add_song(song)
-    song.genre = self
+    song.genre = self if song.genre != self
   end
 
 
